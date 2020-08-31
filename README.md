@@ -21,6 +21,8 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 # How to use
 
+The header section is defined in `/_includes/header`  
+
 ## Portfolio
 Projects are in `/_posts` and images in `/img/portfolio`  
 Each file is an entry which looks like:
@@ -42,20 +44,15 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
 ---
 ```
 
-```md
-###Portfolio 
+## Services
+Described in the `/_includes/services`  
+3 services per row, the second class of the second `i` tag defines the icon
 
-Portfolio projects are in '/_posts'
+## About
+Images are in `/img/about/` and file in `/_includes/about`
 
-Images are in '/img/portfolio'
 
-###About
-
-Images are in '/img/about/'
-
-###Team
-
+## Team
 Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-```
+Images are in `/img/team/`
+For the supported social media icons check [Font Awesome](https://fontawesome.com/)
