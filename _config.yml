@@ -10,27 +10,27 @@ description: "Esnapside site. Web and mobile solutions. Colombian company"
 # Team names, titles and social links
 # For supported social networks check Font Awesome
 people:
-- name: Cristian Riaño
-  pic: 1
-  position: Fundador<br> Especialista en soluciones web
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/cristian-ria%C3%B1o-05764786
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/4620983/cristian-ria%c3%b1o
-    - title: github
-      url: https://github.com/cristianriano
+  - name: Cristian Riaño
+    pic: 1
+    position: Fundador<br> Especialista en soluciones web
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/cristian-ria%C3%B1o-05764786
+      - title: stack-overflow
+        url: https://stackoverflow.com/users/4620983/cristian-ria%c3%b1o
+      - title: github
+        url: https://github.com/cristianriano
 
-- name: Diego Alvis
-  pic: 2
-  position: Fundador<br> Especialista en soluciones moviles
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/diego-alvis-palencia-7823a5130
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/7089060/diego-alvis
-    - title: github
-      url: https://github.com/diegoalvis
+  - name: Diego Alvis
+    pic: 2
+    position: Fundador<br> Especialista en soluciones moviles
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/diego-alvis-palencia-7823a5130
+      - title: stack-overflow
+        url: https://stackoverflow.com/users/7089060/diego-alvis
+      - title: github
+        url: https://github.com/diegoalvis
 
 # Social networks usernames (many more available: check Font Awesome for a full list)
 social:
@@ -45,3 +45,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Analytics
+prod-analytics-id:  G-MGZXX6ME2M
+dev-analytics-id:   UA-DEVXX-2
